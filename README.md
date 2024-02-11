@@ -31,10 +31,10 @@ Mob: 8879316175
 RapidMiner :[ThinkML_RapidMiner_Team10(News Classification).pdf](https://github.com/VedantOza11/BBC-NEWS/files/14232295/ThinkML_RapidMiner_Team10.News.Classification.pdf)
 
 
-Introduction:
+INTRODUCTION:
 Introducing our new news classification model, which is the result of intensive study and testing with the goal of maximizing efficiency and accuracy. Our model combines the advantages of both approaches—Bidirectional Long Short-Term Memory (BiLSTM) and Gated Recurrent Unit (GRU) algorithms—to capture complex contextual connections found in BBC news pieces. Even though our hybrid architecture uses both GRU and BiLSTM, empirical results show that the model that uses solely the output of Bidirectional LSTM consistently achieves the maximum accuracy. By automating the classification process into discrete categories like business, entertainment, politics, sport, or technology, the suggested news classification model tackles the massive amount of digital news material. By effectively sorting through articles, offering individualized content recommendations, and enabling quick access to pertinent news, this model saves time in our daily lives.
 
-Dataset Description:
+DATASET DESCRIPTION:
 The use of Bidirectional LSTM (Long Short-Term Memory) and GRU (Gated Recurrent Unit) models for BBC News Classification proves beneficial. These models are prestigious for their viability in taking care of consecutive information, making them appropriate for normal language handling undertakings. The engineering includes layers of cells that cycle input successions bidirectionally, catching relevant data from both past and future data of interest.
 
 The contribution to these models includes preprocessed message information, with tokenization, inserting, and cushioning utilized to mathematically address words. The model engineering normally comprises an implanting layer, trailed by Bidirectional LSTM or GRU layers. Extra layers, for example, dropout layers, are added for regularization, and a last thick layer with softmax enactment produces class expectations.
@@ -45,7 +45,7 @@ Regularization methods, like dropout, forestall overfitting, guaranteeing the mo
 
 By coordinating Bidirectional LSTM and GRU models into the news characterization task, their arrangement handling capacities improve the model's capacity to catch unpredictable examples in the text information. This approach works with the exact order of BBC news stories, making it a powerful answer for robotized news characterization.
 
-Dataset Split Info:
+DATASET SPLIT:
 1. Training Set (70-80%):
    - Larger part of the dataset allotted for preparing the Bidirectional LSTM and GRU models.
    - Utilized for learning complex examples and connections between printed elements and classes.
@@ -63,9 +63,55 @@ Dataset Split Info:
 
 The dataset split into preparing, approval, and testing sets is a urgent part of building a hearty AI model for BBC News Order. The preparation set gives the fundamental information to the models, permitting them to gain from a different scope of models. The approval set supports tweaking, guaranteeing the model's boundaries are advanced without overfitting to the preparation information. The testing set fills in as a definitive benchmark, surveying the model's presentation on totally original cases and giving experiences into its genuine relevance. This precise methodology guarantees that the model is prepared successfully, refined fittingly, and assessed thoroughly, adding to its dependability in arranging BBC news stories across particular topical classes.
 
-Approach:
-The approach for building a BBC News Classification model involves initial data preprocessing, including tokenization and exploratory data analysis (EDA).The dataset is then decisively parted into preparing, approval, and testing sets to empower powerful model preparation, hyperparameter tuning, and last assessment. The brain network design contains inserting layers followed by Bidirectional LSTM and GRU layers to catch bidirectional consecutive conditions, enhanced with extra layers like dropout for regularization. Hyperparameters are tweaked through strategies, for example, framework search.
+APPROACH:
+In our project blueprint, we initially employed the KMeans algorithm in RapidMiner due to the unavailability of LSTM and GRU models. However, we encountered limitations with the KMeans output, which did not align with the requirements of our news classification project.
 
-During Testing, the model's presentation is checked on the approval set to forestall overfitting. The last assessment evaluates the model's exactness, accuracy, review, and F1 score on the testing set. Interpretability strategies, like consideration systems, give bits of knowledge into the model's dynamic cycle. If necessary, the model goes through tweaking in view of assessment experiences, and the iterative cycle go on until ideal execution is accomplished. A methodical and efficient machine learning development cycle is completed when the model is used to automatically classify BBC news articles into business, entertainment, politics, sport, and technology.
+To overcome these challenges and enhance our model's capabilities, we shifted to Python, where we leveraged Bidirectional LSTM and GRU architectures. This strategic decision aims to mitigate potential drawbacks associated with using a single model type. By combining both Bidirectional LSTM and GRU models, we can benefit from their complementary strengths, ensuring a more robust and accurate classification system for BBC news articles.
 
-Results:
+This dual-model approach allows us to capture bidirectional sequential dependencies efficiently, enhancing the model's ability to understand and categorize diverse textual information. The utilization of LSTM and GRU in Python reflects our commitment to achieving the best possible performance and overcoming the limitations identified during the initial stages of the project in RapidMiner.
+
+
+RESEULT:![Output](https://github.com/VedantOza11/BBC-NEWS/assets/114096362/ced2571f-82ab-4ac7-8272-a5d42c3a5f55)
+
+DEPENDENCIES: Dependencies for a project involves building a machine learning model for news classification using Bidirectional LSTM and GRU algorithms, can vary depending on the specific tools and frameworks chosen for development. Here's a list of potential dependencies:
+
+Python: The primary programming language for implementing machine learning models.
+
+Deep Learning Frameworks: Libraries such as TensorFlow, PyTorch, or Keras provide tools for building and training neural networks, including Bidirectional LSTM and GRU layers.
+
+NLP Libraries: Libraries like NLTK (Natural Language Toolkit) or SpaCy can be used for natural language processing tasks such as tokenization, stemming, and lemmatization.
+
+Data Processing Libraries: Pandas and NumPy are commonly used for data manipulation and preprocessing tasks.
+
+Text Vectorization Techniques: Tools for converting text data into numerical vectors, such as TF-IDF Vectorizer or Word Embeddings (Word2Vec, GloVe).
+
+Model Evaluation Metrics: Libraries like Scikit-learn provide functions for evaluating model performance using metrics such as accuracy, precision, recall, and F1-score.
+
+GPU Support (Optional): If training deep learning models on large datasets, access to GPUs can significantly speed up computation. CUDA and cuDNN are libraries commonly used for GPU support with TensorFlow and PyTorch.
+
+Development Environment: Tools such as Jupyter Notebook, Google Colab, or IDEs like PyCharm or VSCode provide environments for code development, experimentation, and debugging.
+
+Version Control: Platforms like Git and hosting services like GitHub or GitLab facilitate collaboration, version control, and code sharing among team members.
+
+Documentation and Reporting: Tools like Jupyter Notebook, Markdown, or LaTeX can be used for documenting project progress, findings, and results.
+
+Deployment and Integration: Depending on the project requirements, additional dependencies may include frameworks for deploying models to production environments (e.g., Flask, Django, or TensorFlow Serving) and integrating them with other systems or applications.
+
+These dependencies provide the necessary tools and resources for developing, training, evaluating, and deploying machine learning models for news classification effectively. It's essential to carefully select and manage these dependencies to ensure compatibility, scalability, and maintainability throughout the project lifecycle.
+
+PERFORMANCE AND ACCURACY:
+Final Training Accuracy: 0.999104
+Final Validation Accuracy:0.914209
+Final Training Loss:0.010594
+
+NOVELTY FACTOR:
+
+Integrating Bidirectional Long Short-Term Memory (BiLSTM) and Gated Recurrent Unit (GRU) algorithms for news classification represents a novel approach. This combination harnesses bidirectional processing, enhancing the model's capability to capture contextual dependencies in both forward and backward directions within news articles.
+
+By leveraging both Bidirectional LSTM and GRU networks, our model demonstrates improved performance in understanding the sequential nature of text data. This hybrid architecture is particularly beneficial for tasks like news categorization, where contextual understanding is crucial for accurate classification.
+
+Notably, our experimentation revealed that while both the combined output of LSTM and GRU and the model solely utilizing Bidirectional LSTM yielded promising results, the latter consistently provided the best output. This observation underscores the effectiveness of Bidirectional LSTM in news classification tasks, highlighting its superiority in capturing relevant contextual information for accurate categorization.
+
+
+Explanation video: https://github.com/VedantOza11/BBC-NEWS/assets/114096362/8b8e0d64-741d-4b23-ba8c-935e570f62dc
+
