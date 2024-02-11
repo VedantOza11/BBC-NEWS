@@ -111,11 +111,11 @@ These dependencies provide the necessary tools and resources for developing, tra
 
 PERFORMANCE AND ACCURACY:
 
-Final Training Accuracy: 0.999104
+1. Final Training Accuracy: 0.999104
 
-Final Validation Accuracy:0.914209
+2. Final Validation Accuracy:0.914209
 
-Final Training Loss:0.010594
+3. Final Training Loss:0.010594
 
 NOVELTY FACTOR:
 
