@@ -41,19 +41,19 @@ Training Dataset:
 Rows: 3,
 Columns: 3
 
-Contents: Each row represents an article with three columns: 'article id', 'text', and 'category'. The 'article id' uniquely identifies each article, 'text' contains the textual content of the article, and 'category' specifies the category to which the article belongs (e.g., business, entertainment, politics, sport, or technology).
+Contents: Each row represents an article with three columns: 'articled', 'text', and 'category'. The 'articled' uniquely identifies each article, 'text' contains the textual content of the article, and 'category' specifies the category to which the article belongs (e.g., business, entertainment, politics, sport, or technology).
 
 Test Dataset:
 Rows: Varies,
 Columns: 2
 
-Contents: Each row represents an article with two columns: 'article id' and 'text'. The 'article id' serves as a unique identifier for each article, while 'text' contains the textual content of the news article. Unlike the training dataset, the 'category' column is absent, as it's not provided in the test dataset.
+Contents: Each row represents an article with two columns: 'articled' and 'text'. The 'articled' serves as a unique identifier for each article, while 'text' contains the textual content of the news article. Unlike the training dataset, the 'category' column is absent, as it's not provided in the test dataset.
 
 Sample Solution Dataset:
 Rows: 2,
 Columns: 3
 
-Contents: This dataset provides a sample solution for the test dataset. Each row corresponds to an article in the test dataset and contains the 'article id', 'text', and the predicted 'category' column. The predicted category indicates the category predicted by the model for each article.
+Contents: This dataset provides a sample solution for the test dataset. Each row corresponds to an article in the test dataset and contains the 'articled', 'text', and the predicted 'category' column. The predicted category indicates the category predicted by the model for each article.
 These datasets are structured to facilitate the training, evaluation, and testing of machine learning models for news categorization tasks. The training dataset is used to train the model, while the test dataset evaluates the model's performance on unseen data. The sample solution dataset offers a reference for comparing model predictions against ground truth labels.
 
 
