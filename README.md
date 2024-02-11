@@ -38,22 +38,19 @@ DATASET DESCRIPTION:
 The dataset comprises three separate files: a training dataset, a test dataset, and a sample solution dataset for BBC news classification.
 
 Training Dataset:
-
-Rows: 3
+Rows: 3,
 Columns: 3
 
 Contents: Each row represents an article with three columns: 'article id', 'text', and 'category'. The 'article id' uniquely identifies each article, 'text' contains the textual content of the article, and 'category' specifies the category to which the article belongs (e.g., business, entertainment, politics, sport, or technology).
 
 Test Dataset:
-
-Rows: Varies
+Rows: Varies,
 Columns: 2
 
 Contents: Each row represents an article with two columns: 'article id' and 'text'. The 'article id' serves as a unique identifier for each article, while 'text' contains the textual content of the news article. Unlike the training dataset, the 'category' column is absent, as it's not provided in the test dataset.
 
 Sample Solution Dataset:
-
-Rows: 2
+Rows: 2,
 Columns: 3
 
 Contents: This dataset provides a sample solution for the test dataset. Each row corresponds to an article in the test dataset and contains the 'article id', 'text', and the predicted 'category' column. The predicted category indicates the category predicted by the model for each article.
