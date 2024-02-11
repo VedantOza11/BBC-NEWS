@@ -119,6 +119,7 @@ PERFORMANCE AND ACCURACY:
 F1 SCORE:![F1_score](https://github.com/VedantOza11/BBC-NEWS/assets/114096362/c5eec459-3533-42c2-8ed2-f2fe3d500093)
 F1 score: 0.91428 ≈ 1 (Approx close to 1)
 
+
 NOVELTY FACTOR:
 
 Integrating Bidirectional Long Short-Term Memory (BiLSTM) and Gated Recurrent Unit (GRU) algorithms for news classification represents a novel approach. This combination harnesses bidirectional processing, enhancing the model's capability to capture contextual dependencies in both forward and backward directions within news articles.
