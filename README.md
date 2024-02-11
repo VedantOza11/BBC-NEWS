@@ -2,7 +2,9 @@
 ThinkML Competition
 
 Team no: 10
+
 Dataset: News Classification
+
 Problem statement: Build a machine learning model to automatically categorize BBC news articles into the correct category (business, entertainment, politics, sport, or tech).
 
 Team Members,
