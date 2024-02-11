@@ -114,5 +114,6 @@ By leveraging both Bidirectional LSTM and GRU networks, our model demonstrates i
 Notably, our experimentation revealed that while both the combined output of LSTM and GRU and the model solely utilizing Bidirectional LSTM yielded promising results, the latter consistently provided the best output. This observation underscores the effectiveness of Bidirectional LSTM in news classification tasks, highlighting its superiority in capturing relevant contextual information for accurate categorization.
 
 
-Explanation video: https://github.com/VedantOza11/BBC-NEWS/assets/114096362/8b8e0d64-741d-4b23-ba8c-935e570f62dc
+EXPLANATION VIDEO: https://github.com/VedantOza11/BBC-NEWS/assets/114096362/8b8e0d64-741d-4b23-ba8c-935e570f62dc
 
+References: https://www.kaggle.com/c/learn-ai-bbc
