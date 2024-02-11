@@ -11,22 +11,22 @@ Problem statement: Build a machine learning model to automatically categorize BB
 
 Team Members,
 
-Name: Suraj Mishra
-Department: T.E(E&CS)
-Roll no: 31
-Email Id: mishrasuraj2853@gmail.com
+Name: Suraj Mishra,
+Department: T.E(E&CS),
+Roll no: 31,
+Email Id: mishrasuraj2853@gmail.com,
 Mob: 8830303424
 
-Name: Vedant Oza
-Department: T.E(E&CS)
-Roll no: 35
-Email Id: vedantoza0@gmail.com
+Name: Vedant Oza,
+Department: T.E(E&CS),
+Roll no: 35,
+Email Id: vedantoza0@gmail.com,
 Mob: 9967529130
 
-Name: Prathamesh Panchal 
-Department: T.E(E&CS)
-Roll no: 36
-Email Id: prathameshpanchal302@gmail.com
+Name: Prathamesh Panchal,
+Department: T.E(E&CS),
+Roll no: 36,
+Email Id: prathameshpanchal302@gmail.com,
 Mob: 8879316175
 
 RapidMiner :[ThinkML_RapidMiner_Team10(News Classification).pdf](https://github.com/VedantOza11/BBC-NEWS/files/14232295/ThinkML_RapidMiner_Team10.News.Classification.pdf)
