@@ -87,8 +87,6 @@ Text Vectorization Techniques: Tools for converting text data into numerical vec
 
 Model Evaluation Metrics: Libraries like Scikit-learn provide functions for evaluating model performance using metrics such as accuracy, precision, recall, and F1-score.
 
-GPU Support (Optional): If training deep learning models on large datasets, access to GPUs can significantly speed up computation. CUDA and cuDNN are libraries commonly used for GPU support with TensorFlow and PyTorch.
-
 Development Environment: Tools such as Jupyter Notebook, Google Colab, or IDEs like PyCharm or VSCode provide environments for code development, experimentation, and debugging.
 
 Version Control: Platforms like Git and hosting services like GitHub or GitLab facilitate collaboration, version control, and code sharing among team members.
@@ -100,8 +98,11 @@ Deployment and Integration: Depending on the project requirements, additional de
 These dependencies provide the necessary tools and resources for developing, training, evaluating, and deploying machine learning models for news classification effectively. It's essential to carefully select and manage these dependencies to ensure compatibility, scalability, and maintainability throughout the project lifecycle.
 
 PERFORMANCE AND ACCURACY:
+
 Final Training Accuracy: 0.999104
+
 Final Validation Accuracy:0.914209
+
 Final Training Loss:0.010594
 
 NOVELTY FACTOR:
