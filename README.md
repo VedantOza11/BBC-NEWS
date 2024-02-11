@@ -1,4 +1,4 @@
-#ThinkML Competition
+# ThinkML Competition
 
 Team no: 10
 
